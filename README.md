@@ -3,23 +3,27 @@
 ---
 
 ### Intermezzo
-Sebuah Discord bot yang memantau platform CTFd untuk First Blood pada challenge dan mengumumkannya secara otomatis di channel Discord yang ditentukan.
+Sebuah Discord bot yang memantau platform CTFd untuk **First Blood** pada challenge dan mengumumkannya secara otomatis di channel Discord yang ditentukan.
 
 ---
 
 ### Persyaratan
 
 Pastikan perangkat lunak berikut sudah terinstal di sistem Anda:
-- Python 3.8+
-- Discord Bot Token dan akses untuk menambahkan bot ke server
-- CTFd API Key dengan izin untuk membaca data challenge dan solve
-- Modul Python: discord.py, aiohttp, python-dotenv
 
-Anda dapat memeriksa instalasi dengan menjalankan perintah berikut di terminal:
+- Python 3.8+
+- Discord Bot Token dengan izin untuk menambahkan bot ke server
+- CTFd API Key dengan izin membaca data challenge dan solve
+- Modul Python:
+  - `discord.py`
+  - `aiohttp`
+  - `python-dotenv`
+
+Periksa instalasi Python dan pip dengan perintah berikut:
+
 ```bash
-node -v
-npm -v
 python --version
+pip --version
 ```
 
 ---
@@ -39,13 +43,13 @@ python --version
 1.  Clone Repository
     ```bash
     git clone https://github.com/N04H2601/CTFd_FirstBlood_Discord_Bot.git
-   cd CTFd_FirstBlood_Discord_Bot
+    cd CTFd_FirstBlood_Discord_Bot
     ```
 
 2.  Buat Virtual Environment (Opsional)
     ```bash
     python3 -m venv venv
-   source venv/bin/activate # Windows: venv\Scripts\activate
+    source venv/bin/activate # Windows: venv\Scripts\activate
     ```
 3.  Install Dependencies
     ```bash
@@ -56,8 +60,7 @@ python --version
 
 ### Konfigurasi
 
-1. Buat Discord Bot di Discord Developer Portal
- dan dapatkan token.
+1. Buat Discord Bot di Discord Developer Portal dan dapatkan token.
 
 2. Invite Bot ke Server dengan permission Send Messages.
 
