@@ -38,26 +38,6 @@ pip --version
 
 ---
 
-### Instalasi
-
-1.  Clone Repository
-    ```bash
-    git clone https://github.com/N04H2601/CTFd_FirstBlood_Discord_Bot.git
-    cd CTFd_FirstBlood_Discord_Bot
-    ```
-
-2.  Buat Virtual Environment (Opsional)
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate # Windows: venv\Scripts\activate
-    ```
-3.  Install Dependencies
-    ```bash
-    pip install -r requirements.txt
-    ```
-
----
-
 ### Konfigurasi
 
 1. Buat Discord Bot di Discord Developer Portal dan dapatkan token.
