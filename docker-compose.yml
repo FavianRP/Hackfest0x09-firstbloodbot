@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+  firstblood-bot:
+    build: .
+    container_name: firstblood-bot
+    env_file:
+      - .env
+    restart: unless-stopped
+    networks:
+      - firstblood-net
+
+networks:
+  firstblood-net:
+    driver: bridge
